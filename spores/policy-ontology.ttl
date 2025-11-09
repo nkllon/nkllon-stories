@@ -1,0 +1,11 @@
+@prefix : <http://nkllon/ontology/policy#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:RestrictedProcessing a :Policy ;
+  :requiresProvenance true ;
+  :allowedContext :PrivateVM, :EntrustedPartner ;
+  :prohibits :TrainingOnData .
+
+:PrivateVM a :Context ;
+  :description "Exclusive researcher control; no telemetry; no retention" .
