@@ -1,0 +1,14 @@
+# Python / uv
+__pycache__/
+*.pyc
+.venv/
+.uv/
+
+# macOS
+.DS_Store
+
+# Local artifacts
+audit_log.json
+provenance/
+.env
+.env.*

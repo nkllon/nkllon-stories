@@ -1,0 +1,17 @@
+[project]
+name = "nkllon-stories"
+version = "0.1.0"
+description = "Nkllon Observatory – PDCA Execution Spore: ingest/audit, Snowflake schema, Gmail MCP skeleton, and stories."
+authors = [{ name = "Nkllon Observatory" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "rdflib>=7.0.0",
+    "snowflake-snowpark-python>=1.17.0",
+    "pydantic>=2.6.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
