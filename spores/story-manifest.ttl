@@ -1,0 +1,27 @@
+@prefix story: <http://nkllon.com/story#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+story:integrationmirage a story:Post ;
+  story:title "Integration Mirage" ;
+  story:created "2025-11-09" ;
+  foaf:page <https://github.com/nkllon/nkllon-stories/blob/main/stories/2025-11-09-integration-mirage.md> ;
+  prov:wasGeneratedBy story:Observatory .
+
+story:lightningrodpm a story:Post ;
+  story:title "Lightning Rod Pm" ;
+  story:created "2025-11-09" ;
+  foaf:page <https://github.com/nkllon/nkllon-stories/blob/main/stories/2025-11-09-lightning-rod-pm.md> ;
+  prov:wasGeneratedBy story:Observatory .
+
+story:observatorycompliance a story:Post ;
+  story:title "Observatory Compliance" ;
+  story:created "2025-11-09" ;
+  foaf:page <https://github.com/nkllon/nkllon-stories/blob/main/stories/2025-11-09-observatory-compliance.md> ;
+  prov:wasGeneratedBy story:Observatory .
+
+story:snowflakeintelligencetest a story:Post ;
+  story:title "Snowflake Intelligence Test" ;
+  story:created "2025-11-09" ;
+  foaf:page <https://github.com/nkllon/nkllon-stories/blob/main/stories/2025-11-09-snowflake-intelligence-test.md> ;
+  prov:wasGeneratedBy story:Observatory .
+

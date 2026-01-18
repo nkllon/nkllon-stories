@@ -12,3 +12,11 @@ audit_log.json
 provenance/
 .env
 .env.*
+
+# System and IDE exclusions
+**/.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+.idea/
+.vscode/
